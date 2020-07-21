@@ -1,0 +1,10 @@
+<suite name="Suite_Test" parallel="methods" thread-count="2">
+    <test name="SimpleTest">
+        <parameter name="username" value="ilhanberkecan29@gmail.com"></parameter>
+        <parameter name="password" value="E125112.c"></parameter>
+        <classes>
+            <class name="Tests.Test1"></class>
+            <class name="Tests.Test2"></class>
+        </classes>
+    </test>
+</suite>
